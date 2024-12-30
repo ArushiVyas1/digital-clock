@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("sunset.png")no-repeat;
+}
+.clock{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1),0px 10px 20px rgba(0,0,0,0.7);
+    height: 20vh;
+    border-radius: 12px;
+    padding: 20px;
+
+}
+
+.clock h1{
+    font-size: 4rem;
+    font-weight: 600;
+    padding-bottom: 8px;
+    padding-left: 20px;
+}
+
+.clock span{
+    position: relative ;
+    top: -8%;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
